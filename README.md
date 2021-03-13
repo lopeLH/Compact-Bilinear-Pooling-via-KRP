@@ -1,4 +1,4 @@
-# Compact bilinear pooling via Kernelized Random Projection (CBP-KRP)
+## Compact bilinear pooling via Kernelized Random Projection (CBP-KRP)
 
 **Original publication:** *López-Sánchez, Daniel, Angélica González Arrieta, and Juan M. Corchado. "Compact bilinear pooling via kernelized random projection for fine-grained image categorization on low computational power devices." Neurocomputing 398 (2020): 411-421.*
 
