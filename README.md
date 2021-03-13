@@ -1,2 +1,5 @@
-# Compact-Bilinear-Pooling-via-KRP
-Example implementation of the Compact Bilinear Pooling via Kernelized Random Projection (CBP-KRP) layer
+# Compact bilinear pooling via Kernelized Random Projection (CBP-KRP)
+
+**Original publication:** *López-Sánchez, Daniel, Angélica González Arrieta, and Juan M. Corchado. "Compact bilinear pooling via kernelized random projection for fine-grained image categorization on low computational power devices." Neurocomputing 398 (2020): 411-421.*
+
+The main motivation of the CBP-KRP method is to achieve fast inference times when running on low computational power devices. In this repo, two implementations of the CBP-KRP neural network layer are provided. The first one is a toch-based implementation designed to run efficiently on GPU devices. Additionally, we provide a scipy/numpy-based implementation, optimized for fast inference on low computational power devices. The workflow poposed in the paper involves training/fine-tuning your models end-to-end using the torch implementation, and then deploying the models to low computational power devices using the scipy/numpy-based implementation of the CBP-KRP layer, which takes advantage of several computational tricks such as the use of sparse matrix multiplication routines.
